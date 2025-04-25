@@ -18,7 +18,7 @@ from langchain_openai import ChatOpenAI
 
 # 1. Set OpenAI API key
 # Replace 'YOUR_OPENAI_API_KEY_HERE' or export OPENAI_API_KEY
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "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"
 
 # 2. Initialize LayoutLMv3 processor without internal OCR
 timeout = None
